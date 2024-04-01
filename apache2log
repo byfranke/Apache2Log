@@ -31,7 +31,7 @@ cat <<EOF
    ___ \   |   |  (   |  (     | | |   __/   __/   |      (   |  (   |   
  _/    _\  .__/  \__,_| \___| _| |_| \___| _____| _____| \___/  \__, | 
           _|                                                    |___/   
-                  https://github.com/byfranke                          
+                     https://github.com/byfranke                          
                                                                        
 Choose an option to proceed:
 1) Show the last 100 entries of the Apache access log
