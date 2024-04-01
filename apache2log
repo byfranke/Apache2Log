@@ -24,21 +24,23 @@ function show_unique_ips() {
 }
 
 function main_menu() {
+cat <<EOF
 
+     \                         |           ___ \   |                    
+    _ \    __ \    _  |   __|  __ \    _ \    ) |  |       _ \    _  | 
+   ___ \   |   |  (   |  (     | | |   __/   __/   |      (   |  (   |   
+ _/    _\  .__/  \__,_| \___| _| |_| \___| _____| _____| \___/  \__, | 
+          _|                                                    |___/   
+                  https://github.com/byfranke                          
+                                                                       
+Choose an option to proceed:
+1) Show the last 100 entries of the Apache access log
+2) Open the Apache access log interactively
+3) Follow the Apache access log in real time
+4) Show the last 100 unique IP addresses
+5) Exit
 
-    echo "     \                         |           ___ \   |                   "
-    echo "    _ \    __ \    _` |   __|  __ \    _ \    ) |  |       _ \    _` | "
-    echo "   ___ \   |   |  (   |  (     | | |   __/   __/   |      (   |  (   | "
-    echo " _/    _\  .__/  \__,_| \___| _| |_| \___| _____| _____| \___/  \__, | "
-    echo "          _|                                                    |___/  "
-    echo "                  https://github.com/byfranke                          "
-    echo "                                                                       "
-    echo "Choose an option to proceed:"
-    echo "1) Show the last 100 entries of the Apache access log"
-    echo "2) Open the Apache access log interactively"
-    echo "3) Follow the Apache access log in real time"
-    echo "4) Show the last 100 unique IP addresses"
-    echo "5) Exit"
+EOF
 
     read -p "Enter your choice (1/2/3/4/5): " choice
 
