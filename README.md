@@ -20,21 +20,20 @@ The script stands out for its simplicity and ease of use, providing powerful log
 
 # How to Use
 
-Step : 1 Download
-```
+```bash
 git clone https://github.com/byfranke/apache2log
 ```
-Step : 2 Move to directory
+```bash
+cd Apache2Log
 ```
-cd apache2log
+```bash
+chmod +x setup.sh
 ```
-Step : 3 Permission to execute
+```bash
+bash ./setup.sh
 ```
-chmod +x apache2log
-```
-Step : 4 Run
-```
-sudo ./apache2log
+```bash
+Apache2Log
 ```
 
 [![Watch the video](https://img.youtube.com/vi/Zy9z5GWk6co/maxresdefault.jpg)](https://www.youtube.com/watch?v=Zy9z5GWk6co)
