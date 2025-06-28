@@ -35,5 +35,3 @@ bash ./setup.sh
 ```bash
 Apache2Log
 ```
-
-[![Watch the video](https://img.youtube.com/vi/Zy9z5GWk6co/maxresdefault.jpg)](https://www.youtube.com/watch?v=Zy9z5GWk6co)
